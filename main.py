@@ -1,9 +1,6 @@
-from fastapi import FastAPI, HTTPException, Depends
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, HTTPException
 from pyactiveresource.connection import ResourceNotFound
-from typing import Optional, List
 import shopify
-from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
 from ratelimit import limits, sleep_and_retry
