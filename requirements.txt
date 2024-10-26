@@ -1,0 +1,12 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# Shopify API integration
+ShopifyAPI==9.0.0
+
+# Environment variables management
+python-dotenv==1.0.0
+
+# Testing utilities
+pytest==7.4.0
+pytest-mock==3.11.1
